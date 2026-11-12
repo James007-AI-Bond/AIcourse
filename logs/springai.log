@@ -61,3 +61,16 @@
 2026-11-12 21:12:11.409 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
 2026-11-12 21:12:11.443 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
 2026-11-12 21:12:11.448 [main] INFO  net.ai.SpringAiApplication - Started SpringAiApplication in 4.169 seconds (process running for 5.18)
+2026-11-12 21:34:08.668 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-12 21:34:08.731 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-11-12 21:34:17.119 [main] INFO  net.ai.SpringAiApplication - Starting SpringAiApplication using Java 21.0.8 with PID 21076 (D:\Piyushraj\JavaSecreat\AIntelligence\SpringAI\target\classes started by HP AIO (247166) in D:\Piyushraj\JavaSecreat\AIntelligence\SpringAI)
+2026-11-12 21:34:17.125 [main] INFO  net.ai.SpringAiApplication - No active profile set, falling back to 1 default profile: "default"
+2026-11-12 21:34:18.442 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-11-12 21:34:18.473 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-12 21:34:18.476 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-12 21:34:18.476 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-12 21:34:18.622 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1429 ms
+2026-11-12 21:34:18.740 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: public static java.lang.String net.ai.SpringAiApplication.openAiApiKeys
+2026-11-12 21:34:20.367 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-11-12 21:34:20.394 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-11-12 21:34:20.400 [main] INFO  net.ai.SpringAiApplication - Started SpringAiApplication in 4.115 seconds (process running for 4.956)
