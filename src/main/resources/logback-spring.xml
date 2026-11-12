@@ -11,7 +11,7 @@
 
     <!-- Save to a file -->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>logs/springai.log</file>
+        <file>D:/Piyushraj/logs/springai.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>logs/springai.%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>7</maxHistory>
