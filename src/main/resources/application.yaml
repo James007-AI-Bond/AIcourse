@@ -1,3 +1,15 @@
 spring:
   application:
     name: SpringAI
+  ai:
+    openai:
+      api-key: ${OPEN_API_KEY}
+      chat:
+        options:
+          model: gpt-4o
+
+  logging:
+    level:
+      root: INFO
+      net.ai: INFO
+      org.springframework.ai: INFO
